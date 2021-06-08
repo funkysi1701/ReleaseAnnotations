@@ -15,7 +15,7 @@ However replace
  with
  
  ```powershell
- -aiResourceId "/subscriptions/59bdf6e9-f925-45bf-ae95-18c6d959f688/resourceGroups/ProjectPyramid/providers/microsoft.insights/components/ProjectPyramid-Local" `     
+ -aiResourceId "<aiResourceId>" `     
  -releaseName "$(Release.ReleaseName)" `     
  -releaseProperties @{
   "BuildNumber"="$(Build.BuildNumber)";
